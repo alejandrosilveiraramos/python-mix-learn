@@ -6,22 +6,16 @@ Download the project and run it through your IDE.
 ```
  git clone https://github.com/AlejandroSilveiraRamos/python-mix-learn
 ```
-Install dependencies ( ! just necessery if you are using Jupyter IDE )
+Install dependencies
 ```
-!pip install pyautogui
-!pip install pyperclip
-!pip install plotly
-!pip install matplotlib
-!pip install seaborn
-!pip install scikit-learn
-!pip install selenium
+pip install -r requirements.txt
 ```
 ###### Well using python I developed 4 different applications to learn how they work: 
 
--  Web automation and information search
--  Automation systems and processes 
 -  Data analytics
 -  Sales forecasting with data science
+-  Automation systems and processes 
+-  Web automation and information search
 
 #### Data Analysis
 ##### Challenge
@@ -42,12 +36,6 @@ Step by step to solve the challenge:
  4. Initial analysis / global analysis
  5. Detail analysis (Search for the reason/the solotuin of Churn)
 
-Import dependencies:
-```
-import pandas as pd
-import plotly.express as px
-```
-
 #### Data Science Project - Sales Forecast
 ##### Challenge
 
@@ -63,17 +51,6 @@ Step by step to solve the challenge:
  6. Modeling + Algorithms + Artificial Intelligence
  7. Interpretation of Results
 
- Import dependencies 
-```
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
-from sklearn.ensemble import RandomForestRegressor
-from sklearn import metrics
-```
-
 #### System and Process Automation
 ##### Challenge
 
@@ -87,13 +64,6 @@ Step by step to solve the challenge:
   4. Calculate the indicators 
   5. Send an e-mail to the board with the indicators
 
-Import dependencies:
-```
-import pyautogui
-import pyperclip
-import time
-import pandas as pd
-```
 
 #### Web Automation and Information Retrieval
 ##### Challenge
@@ -116,12 +86,6 @@ Step by step to solve the challenge:
   6. Save the new product prices
 
 Important: Download and install Webdriver for your browser.
->
-Import dependencies:
-```
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.by import By
-import pandas as pd
-```
+
+
   
