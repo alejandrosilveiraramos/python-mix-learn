@@ -10,7 +10,7 @@ Install dependencies
 ```
 pip install -r requirements.txt
 ```
-###### Developed 4 different applications to learn how they work: 
+###### Developed 4 different applications: 
 
 -  Data analytics
 -  Sales forecasting with data science
